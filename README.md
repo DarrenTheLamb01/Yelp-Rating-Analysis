@@ -2,7 +2,7 @@
 
 This project explores how Yelp restaurant ratings vary across contextual factors such as price level, cuisine type, geographic location, and chain status. Rather than treating star ratings as absolute measures of quality, we examine how expectations and norms shape rating distributions across different restaurant contexts.
 
-This repository contains the full data pipeline for the STA 141B final project, including data acquisition, cleaning, transformation, exploratory analysis, and visualization.
+This repository contains the full data pipeline, including data acquisition, cleaning, transformation, exploratory analysis, and visualization.
 
 ## Research Questions
 
@@ -20,7 +20,7 @@ Data were collected using the **Yelp Fusion API**, sampling approximately 100,00
 (Details of data acquisition are documented in the project report.)
 
 ## Repository Structure
-
+```
 Yelp-Rating-Analysis/
 │
 ├── data/
@@ -37,7 +37,7 @@ Yelp-Rating-Analysis/
 │
 ├── requirements.txt
 └── README.md
-
+```
 
 ## Methods Overview
 
